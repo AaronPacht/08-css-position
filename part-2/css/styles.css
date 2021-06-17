@@ -24,6 +24,47 @@ figure {
 }
 
 .film {
-  width: 50%;
+  width: 60%;
+  height: 300px;
   margin: 40px auto;
+  position: relative;
+}
+
+article{
+  border: 1px solid silver;
+}
+
+figure>img{
+  max-height: 285px;
+  padding: 15px;
+}
+
+figure{
+  position: relative;
+}
+
+.fa-clock-o{
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  color: red;
+}
+
+.film-details>.film-title{
+  position: absolute;
+  top: 5px;
+  left: 200px;
+}
+
+.film-details>.film-description{
+  position: absolute;
+  top: 60px;
+  left: 200px;
+}
+
+.film-details>.action-like{
+  position: absolute;
+  color: red;
+  right: 2px;
+  bottom: 5px;
 }
